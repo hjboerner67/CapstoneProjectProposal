@@ -24,7 +24,7 @@ School Data
 1.  AvialableCourses
 2.  TargetedPostSecondarySchools
 
-Based on the information provide, I will obtain key information from area post secondary institutions about their ability to provide STEM education to entering students.  This will be obtained by
+Based on the information provided, I will obtain key information from area post secondary institutions about their ability to provide STEM education to entering students.  This will be obtained by
 utilizing the federal govenments college inventory dataset and then web scraping entrance criteria and STEM program graduation criteria.  I will also utilize the govenments occupation projection
 database to corrolate need, projected salary, and hiring estimates.
 
