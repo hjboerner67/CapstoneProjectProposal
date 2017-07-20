@@ -2,22 +2,31 @@
 https://www.ed.gov/stem
 https://www.ice.gov/sites/default/files/documents/Document/2016/stem-list.pdf
 https://inventory.data.gov/dataset/032e19b4-5a90-41dc-83ff-6e4cd234f565/resource/38625c3d-5388-4c16-a30f-d105432553a4
-https://data.bls.gov/projections/occupationProj?_workex=on&_workex=on&_workex=on&_training=on&_training=on&_training=on&_training=on&_training=on&_training=on&_education=on&_education=on&education=3&_education=on&_education=on&_education=on&_education=on&_education=on&_education=on&empBaseMn=0.1&empBaseMx=4624.9&empProjMn=0.1&empProjMx=4939.1&empChangeMn=-148.7&empChangeMx=458.1&empChangePctMn=-69.9&empChangePctMx=108&jobOpeningsMn=0&jobOpeningsMx=1917.2&medianWageMn=19290&medianWageMx=%3E%3D208000
+https://data.bls.gov/projections/occupation
 
 Question:  Are you preparing students for success in STEM related college programs and jobs
 
 The idea of this program is to work with a local high school and assess the schools ability to prepare students for success in STEM related college programs and ultimately a successful career.  
 This will be accomplished by analyzing government, college, and the selected high schools data.  Specifically, I would like to get an PCI compliant data set from the school
-of all students that have graduated in the past 7-10 years.  What are the main schools that student target from that school.  I will work with administrator to determine the appropriate dataset, but I am primarily looking for the following data:
+of all students that have graduated in the past 7-10 years.  What are the main schools that student target from that school.  I will work with administrator to determine the appropriate dataset, 
+but I am primarily looking for the following data:
 
 Student Data
 1.  Random Number
 2.  GraduationYear
-3.  Male/Female
+3.  MaleFemale
 4.  ClassesTaken
 5.  ChosenPostSecondarySchool
 6.  ACTScore
 7.  SATScore
 
 School Data
-1.  
+1.  AvialableCourses
+2.  TargetedPostSecondarySchools
+
+Based on the information provide, I will obtain key information from area post secondary institutions about their ability to provide STEM education to entering students.  This will be obtained by
+utilizing the federal govenments college inventory dataset and then web scraping entrance criteria and STEM program graduation criteria.  I will also utilize the govenments occupation projection
+database to corrolate need, projected salary, and hiring estimates.
+
+The goal would be to give the high school a rating on STEM preparedness and recommendations on how to provide students with the option of programs that will prepare them for a career in STEM
+related fields.
